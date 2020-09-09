@@ -1,0 +1,8 @@
+! terminal tweaks for xterm
+
+Xterm.termName: xterm-256color
+Xterm.vt100.locale: true
+Xterm.vt100.metaSendsEscape: true
+Xterm.vt100.backarrowKey: false
+Xterm.ttyModes: erase ^?
+Xterm.vt100.saveLines: 4096

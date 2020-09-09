@@ -1,0 +1,6 @@
+!home/leshen/.local/bin/
+home/leshen/.local/bin/*
+!home/leshen/.local/bin/*.sh
+!home/leshen/.local/bin/*.py
+!home/leshen/.local/bin/UnRen\ Tools/
+!home/leshen/.local/bin/UnRen\ Tools/*

@@ -1,0 +1,12 @@
+! This file provides configuration in Xresources
+! for applications which do not have fontconfig support
+! for example - urxvt
+
+Xft.autohint: 	0
+Xft.lcdfilter: 	lcddefaut
+Xft.hintstyle: 	hintfull
+Xft.antialias: 	1
+Xft.rgba: 		1
+Xft.dpi: 		96
+Xft.autohint: 	1
+

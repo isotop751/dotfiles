@@ -1,0 +1,8 @@
+! fonts
+
+*.font:	xft:Hack:pixelsize=13,\
+		xft:Iosevka:pixelsize=13,\
+		xft:Ubuntu Mono:pixelsize=13,\
+		xft:DejaVu Sans Mono:pixelsize=13
+
+Emacs.font: Hack:pixelsize=13
