@@ -15,6 +15,7 @@ LISTS=(
 	"$HOME/.config/fontconfig"
 	"$HOME/.config/mimeapps.list"
 	"$HOME/.environ"
+	"$HOME/.gnupg/dirmngr.conf"
 	"$HOME/.local/bin"
 	"$HOME/.ssh/config"
 	"$HOME/.bash_profile"

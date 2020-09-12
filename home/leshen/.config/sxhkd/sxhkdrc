@@ -1,34 +1,20 @@
-#
-# wm independent hotkeys
-#
 
-#
-# lock screen
-#
-
+# lock the screen
 super + shift + x
 	betterlockscreen --lock blur --text "Locked - $HOSTNAME"
 
+# on screen keyboard
 super + p
 	onboard
-#
-# invert colors
-#
+
+# invert screen colors
 super + shift + p
 	xcalib -invert -alter
-
-#
-# launchers
-#
 
 # rofi
 super + z
 	rofi -show combi
 
-
-#
-# shortcuts
-#
 
 # audio control
 XF86AudioLowerVolume
@@ -41,6 +27,12 @@ XF86AudioMute
 	pactl set-sink-mute @DEFAULT_SINK@ toggle
 
 
+# brightness control
+XF86MonBrightnessUp
+	light -A 5
+
+XF86MonBrightnessDown
+	light -U 5
 
 
 # full screenshot
@@ -56,11 +48,11 @@ super + shift + Print
 
 # temp screenshot
 super + ctrl + Print
-	maim --format png --quality 10 --delay 1 /tmp/$(date +%s).png
+	maim --format png /dev/stdout | copyq write image/png -
 
-#temp screenshot interactive
+# temp screenshot interactive
 super + alt + Print
-	maim --format png --quality 10 --select /tmp/$(date +%s).png
+	maim -s --format png /dev/stdout | copyq write image/png -
 
 
 
@@ -68,15 +60,11 @@ super + alt + Print
 super + Return
 	urxvt
 
-super + shift + Return
-	kitty
-
 super + alt + Return
 	konsole
 
 
-
-# program launcher
+# dmenu
 super + @space
 	dmenu_run
 
