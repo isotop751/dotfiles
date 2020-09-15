@@ -61,7 +61,7 @@ super + Return
 	urxvt
 
 super + alt + Return
-	konsole
+	alacritty
 
 
 # dmenu
