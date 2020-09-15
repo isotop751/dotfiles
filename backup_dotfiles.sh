@@ -14,6 +14,7 @@ LISTS=(
 	"$HOME/.config/picom"
 	"$HOME/.config/fontconfig"
 	"$HOME/.config/mimeapps.list"
+	"$HOME/.config/alacritty"
 	"$HOME/.environ"
 	"$HOME/.gnupg/dirmngr.conf"
 	"$HOME/.local/bin"
