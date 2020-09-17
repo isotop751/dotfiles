@@ -278,6 +278,7 @@ application/vnd.openxmlformats-officedocument.wordprocessingml.document=libreoff
 application/vnd.stardivision.writer=libreoffice-writer.desktop
 application/vnd.wordperfect=libreoffice-writer.desktop
 application/x-abiword=libreoffice-writer.desktop
+application/x-wine-extension-ini=sublime_text_3.desktop
 
 [Added Associations]
 application/epub+zip=calibre-ebook-viewer.desktop;/home/leshen/.local/share/applications/wine/Programs/SumatraPDF.desktop;okularApplication_epub.desktop;
@@ -307,3 +308,5 @@ application/vnd.openxmlformats-officedocument.wordprocessingml.document=libreoff
 application/vnd.stardivision.writer=libreoffice-writer.desktop;
 application/vnd.wordperfect=libreoffice-writer.desktop;
 application/x-abiword=libreoffice-writer.desktop;
+text/x-csrc=code-oss.desktop;
+application/x-wine-extension-ini=sublime_text_3.desktop;
