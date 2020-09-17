@@ -9,11 +9,11 @@ dark="McOS-CTLina-Mint-Dark"
 if [[ $current =~ $dark ]]; then
 
 	sed -i "${line}s/.*/gtk-theme-name=${light}/" $file &
-	notify-send "Switched to Light Theme!"
+	notify-send "Switched to Light Theme! (GTK)"
 
 elif [[ $current =~ $light ]]; then
 	sed -i "${line}s/.*/gtk-theme-name=${dark}/" $file &
-	notify-send "Switched to Dark Theme!"
+	notify-send "Switched to Dark Theme! (GTK)"
 
 else
 	echo "Nothing to do"
