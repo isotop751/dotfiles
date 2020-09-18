@@ -2,7 +2,7 @@
 
 sxhkd &
 ## Launchers
-picom -bc
+picom -bc --experimental-backends
 $HOME/.fehbg &
 xsetroot -cursor_name left_ptr &
 /usr/bin/dunst &
