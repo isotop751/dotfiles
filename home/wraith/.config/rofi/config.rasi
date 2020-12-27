@@ -1,0 +1,11 @@
+configuration {
+	modi: "combi,run,drun,window";
+	width: 35;
+	lines: 8;
+	columns: 1;
+	font: "Dina 15";
+	show-icons: true;
+	terminal: "rofi-sensible-terminal";
+	icon-theme: "haiku";
+	//theme: "/home/wraith/.cache/colstract/colors-rofi-light.rasi";
+}

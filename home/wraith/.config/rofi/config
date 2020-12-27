@@ -1,0 +1,8 @@
+rofi.font:			Dina 15
+rofi.modi:			combi,run,drun,window
+rofi.width:			35
+rofi.lines:			8
+rofi.columns:		1
+rofi.show-icons:	true
+rofi.terminal:		rofi-sensible-terminal
+rofi.icon-theme:	haiku
