@@ -10,3 +10,9 @@ alias grep='grep --color=auto'
 PS1='[\u@\h \W]\$ '
 
 source ~/.profile
+source /usr/share/nvm/init-nvm.sh
+
+export EDITOR=vim
+
+# zoxide
+eval "$(zoxide init bash)"
